@@ -1,13 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Device Tuner Pro 26</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Device Tuner Pro 26 helps users monitor device performance, manage storage, track battery usage, and reduce background activity during gaming." />
+import React from 'react';
 
-  <!-- Apple-style system font -->
-  <style>
+<div className="container">
+
+  {/* HERO */}
+  <header>
+    <h1>Device Tuner Pro 26</h1>
+    <p>
+      Monitor device performance, manage storage, track battery usage,
+      and reduce background activity for a smoother daily experience.
+    </p>
+
+    <a
+      className="cta-button"
+      href="https://apps.apple.com/ng/app/device-tuner-pro-26/id6757767956"
+    >
+      Download on the App Store
+    </a>
+  </header>
+
+  {/* FEATURES */}
+  <section className="features">
+    <div className="feature-card">
+      <h3>Game Mode Control</h3>
+      <p>
+        Reduce background activity while gaming to maintain stable performance
+        and minimize interruptions.
+      </p>
+    </div>
+
+    <div className="feature-card">
+      <h3>Storage Cleanup</h3>
+      <p>
+        Identify unwanted photos and files to help manage storage
+        more efficiently.
+      </p>
+    </div>
+
+    <div className="feature-card">
+      <h3>Battery Monitoring</h3>
+      <p>
+        View battery usage patterns and track consumption
+        across system activities.
+      </p>
+    </div>
+
+    <div className="feature-card">
+      <h3>Light & Dark Themes</h3>
+      <p>
+        Seamlessly switch between light and dark themes
+        for comfortable use at any time.
+      </p>
+    </div>
+  </section>
+
+  {/* FOOTER */}
+  <footer>
+    <div className="divider"></div>
+
+    <p>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </p>
+
+    <p>© 2025 Blunt Entertainment</p>
+  </footer>
+
+  {/* Inline Styles */}
+  <style jsx>{`
     :root {
       --purple-main: #6d5cff;
       --purple-dark: #4b3fdc;
@@ -127,71 +185,5 @@
       margin-left: auto;
       margin-right: auto;
     }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-
-    <!-- HERO -->
-    <header>
-      <h1>Device Tuner Pro 26</h1>
-      <p>
-        Monitor device performance, manage storage, track battery usage,
-        and reduce background activity for a smoother daily experience.
-      </p>
-
-      <a class="cta-button" href="https://apps.apple.com/ng/app/device-tuner-pro-26/id6757767956">
-        Download on the App Store
-      </a>
-    </header>
-
-    <!-- FEATURES -->
-    <section class="features">
-      <div class="feature-card">
-        <h3>Game Mode Control</h3>
-        <p>
-          Reduce background activity while gaming to maintain stable performance
-          and minimize interruptions.
-        </p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Storage Cleanup</h3>
-        <p>
-          Identify unwanted photos and files to help manage storage
-          more efficiently.
-        </p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Battery Monitoring</h3>
-        <p>
-          View battery usage patterns and track consumption
-          across system activities.
-        </p>
-      </div>
-
-      <div class="feature-card">
-        <h3>Light & Dark Themes</h3>
-        <p>
-          Seamlessly switch between light and dark themes
-          for comfortable use at any time.
-        </p>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer>
-      <div class="divider"></div>
-
-      <p>
-        <a href="privacy-policy.html">Privacy Policy</a>
-      </p>
-
-      <p>© 2025 Blunt Entertainment</p>
-    </footer>
-
-  </div>
-</body>
-</html>
+  `}</style>
+</div>
