@@ -40,7 +40,7 @@ export const BrandingBadge: React.FC<BrandingBadgeProps> = ({
   showTooltip = true,
   tooltipText = <div><p>Welcome to Global Work Visa Jobs</p>
         <p>
-            Go back to <a href="https://globalworkvisajobs.pages.dev">home page</a> </p></div>,
+            Go back to <a className='text-blue-500' href="https://globalworkvisajobs.pages.dev">home page</a> </p></div>,
   tooltipDelay = 300,
   customColors,
   onClick
