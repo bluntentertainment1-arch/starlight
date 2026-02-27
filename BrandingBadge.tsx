@@ -311,7 +311,7 @@ const [isEmbedded, setIsEmbedded] = useState(false);
               {brandTextLogo && (
                 <img
                   src={brandTextLogo}
-                  alt={`lastapp text logo`}
+                  alt={`Global Work Visa Jobs`}
                   className={`${getTextLogoSize()} object-contain`}
                 />
               )}
