@@ -38,7 +38,9 @@ export const BrandingBadge: React.FC<BrandingBadgeProps> = ({
   position = 'bottom-right',
   className = '',
   showTooltip = true,
-  tooltipText = <div><p>This badge will be visible when you publish this site</p><p>Upgrade to the <a className='text-blue-500' href="https://lastapp.ai/" target="_blank" rel="noopener noreferrer">Pro Plan</a> to remove it.</p></div>,
+  tooltipText = <div><p>Welcome to Global Work Visa Jobs</p>
+        <p>
+            Go back to <a href="https://globalworkvisajobs.pages.dev">home page</a> </p></div>,
   tooltipDelay = 300,
   customColors,
   onClick
